@@ -11,7 +11,7 @@
 
 Like this:
 
-<img src="https://color-pallete-gen.herokuapp.com/741b47>" />
+<img src="https://color-pallete-gen.herokuapp.com/741b47" />
 
 ## Getting Started
 

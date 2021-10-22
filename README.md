@@ -3,6 +3,16 @@
 
 [![go](https://github.com/joaomarcuslf/color-generator/actions/workflows/go.yml/badge.svg)](https://github.com/joaomarcuslf/color-generator/actions/workflows/go.yml)
 
+## How to use this repo
+
+```
+<img src="https://color-pallete-gen.herokuapp.com/hexCode" />
+```
+
+Like this:
+
+<img src="https://color-pallete-gen.herokuapp.com/741b47>" />
+
 ## Getting Started
 
 1. Copy ```sample.env``` to ```.env``` and rename the variables if you need

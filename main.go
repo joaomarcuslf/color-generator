@@ -8,10 +8,12 @@ import (
 )
 
 func main() {
-	err := godotenv.Load()
+	if os.Getenv("ENV") != "production" {
+		err := godotenv.Load()
 
-	if err != nil {
-		panic(err)
+		if err != nil {
+			panic(err)
+		}
 	}
 
 	server := server.NewServer(os.Getenv("PORT"))
